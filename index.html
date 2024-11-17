@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container text-center p-5">
+        <div class="mb-5 bg-light w-75 m-auto p-5 pb-3">
+            <div id="change-due" class="fs-3 fw-semibold">change-due container</div>
+            <div class="mb-3">
+                <input type="number" id="cash" class="form-control form-control-lg">
+            </div>
+            <div class="mb-3">
+                <button id="purchase-btn" class="btn btn-lg btn-primary w-100">
+                    Purchase
+                </button>
+            </div>
+            <p id="total-price" class="fw-bold fs-4 text-success"></p>
+            <p id="cash-change" class="fw-bold fs-4 text-info">Cash change: 0</p>
+            <div id="change-in-drawer" class="border border-5 rounded rounded-3">
+                <h3>change-in-drawer container</h3>
+            </div>
+        </div>
+    </div>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
